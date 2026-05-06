@@ -25,3 +25,5 @@ export interface AuthResponse {
   expiresAtUtc: string;
   user: User;
 }
+
+export type AvatarUrl = string;
