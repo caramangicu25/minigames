@@ -13,3 +13,5 @@ export interface GameMeta {
   icon: string;
   color: string;
 }
+
+export type DifficultyLevel = 'easy' | 'medium' | 'hard';
