@@ -15,3 +15,8 @@ export const registerSchema = z.object({
   email: z.string().email("Invalid email address"),
   password: z.string().min(6, "Password must be at least 6 characters"),
 });
+
+export const strongPasswordSchema = loginSchema.shape.password.min(8).regex(
+  /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)/,
+  'Must contain uppercase, lowercase and number'
+);
