@@ -20,3 +20,5 @@ export interface SubmitScoreRequest {
   game: GameType;
   value: number;
 }
+
+export type RankedScore = Score & { rank: number };
