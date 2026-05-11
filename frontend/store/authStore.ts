@@ -65,3 +65,5 @@ export const useAuthStore = create<AuthState>((set) => ({
 
   setUser: (user) => set({ user, isAuthenticated: !!user }),
 }));
+
+export type AuthStatus = "idle" | "loading" | "authenticated" | "unauthenticated";

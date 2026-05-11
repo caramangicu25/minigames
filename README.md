@@ -19,3 +19,18 @@ minigames/
 ├── frontend/   # Next.js app
 └── backend/    # .NET solution (4-layer architecture)
 \`\`\`
+
+## Getting Started
+
+### Frontend
+\`\`\`bash
+cd frontend
+npm install
+npm run dev
+\`\`\`
+
+### Backend
+\`\`\`bash
+cd backend
+dotnet run --project MiniGames.Api
+\`\`\`
