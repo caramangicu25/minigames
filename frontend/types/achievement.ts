@@ -5,3 +5,5 @@ export interface AchievementDto {
   icon: string;
   unlockedAt: string | null;
 }
+
+export type AchievementProgress = { achievementId: number; current: number; target: number; };
