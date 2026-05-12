@@ -76,3 +76,5 @@ export async function logout(): Promise<void> {
 export async function getMe(): Promise<User> {
   return apiFetch<User>("/api/auth/me");
 }
+
+export const DEFAULT_TIMEOUT_MS = 10000;
