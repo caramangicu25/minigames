@@ -105,3 +105,7 @@ input[type="number"] { -moz-appearance: textfield; }
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 3px; }
+
+.btn { display: inline-flex; align-items: center; justify-content: center; border-radius: 0.5rem; padding: 0.5rem 1rem; font-size: 0.875rem; font-weight: 500; transition: opacity 0.15s; }
+.btn-primary { background-color: var(--color-accent); color: #fff; }
+.btn-primary:hover { opacity: 0.9; }
