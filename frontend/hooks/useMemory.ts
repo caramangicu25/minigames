@@ -97,3 +97,5 @@ export function useMemory({ onComplete }: Options = {}) {
 
   return { cards, moves, completed, flipCard, restart };
 }
+
+export type MemoryMoveCount = number;
