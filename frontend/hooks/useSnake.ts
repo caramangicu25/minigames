@@ -127,3 +127,5 @@ export function useSnake({ onGameOver }: Options = {}): SnakeGameState {
 
   return { snake, food, score, running, gameOver, COLS, ROWS, start, restart };
 }
+
+export type SnakeSpeedTier = "slow" | "normal" | "fast";
