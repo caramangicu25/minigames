@@ -105,3 +105,5 @@ export function useTicTacToe({ vsBot = true, onWin }: Options = {}) {
 
   return { board, current, winner, winLine, play, reset };
 }
+
+export type TicTacToeResult = "X" | "O" | "draw" | null;
