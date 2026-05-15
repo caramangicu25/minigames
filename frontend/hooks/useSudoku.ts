@@ -164,3 +164,5 @@ export function useSudoku({ onComplete }: Options = {}) {
     newGame,
   };
 }
+
+export type SudokuHint = { row: number; col: number; value: number };
