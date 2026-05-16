@@ -37,3 +37,5 @@ export function GameCard({ title, description, href, icon, color }: Props) {
     </Link>
   );
 }
+
+export type GameBadge = "new" | "hot" | "updated" | null;
