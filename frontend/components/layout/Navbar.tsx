@@ -228,3 +228,6 @@ export function Navbar() {
     </>
   );
 }
+
+// NavLink type used for route highlighting
+export type NavLinkItem = { href: string; label: string };
