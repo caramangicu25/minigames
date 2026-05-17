@@ -111,3 +111,5 @@ export function RegisterForm({ onSuccess }: Props) {
     </form>
   );
 }
+
+type StrengthLevel = 0 | 1 | 2 | 3;
