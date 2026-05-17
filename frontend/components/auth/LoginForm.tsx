@@ -69,3 +69,5 @@ export function LoginForm({ onSuccess }: Props) {
     </form>
   );
 }
+
+type PasswordVisibility = "text" | "password";
