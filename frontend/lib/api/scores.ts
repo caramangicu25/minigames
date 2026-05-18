@@ -16,3 +16,5 @@ export async function getLeaderboard(game?: string): Promise<Score[]> {
 export async function getByUser(userId: string): Promise<Score[]> {
   return apiFetch<Score[]>(`/api/scores/user/${userId}`);
 }
+
+export type ScoreFilter = { gameType?: string; limit?: number };
