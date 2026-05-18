@@ -17,3 +17,5 @@ export const removeFriend = (id: string) =>
 
 export const getFriendLeaderboard = () =>
   apiFetch<FriendLeaderboardEntry[]>("/api/friends/leaderboard");
+
+export type FriendSearchParams = { query: string; page?: number };
