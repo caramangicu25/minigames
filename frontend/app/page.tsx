@@ -133,3 +133,6 @@ export default function HomePage() {
     </div>
   );
 }
+
+// hero section variant
+type HeroVariant = "default" | "compact";
