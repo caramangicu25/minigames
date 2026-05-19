@@ -10,3 +10,5 @@ export const useGameStore = create<GameState>((set) => ({
   activeGame: null,
   setActiveGame: (game) => set({ activeGame: game }),
 }));
+
+export type GameSession = { gameType: string; startedAt: number; score: number };
