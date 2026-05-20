@@ -140,3 +140,5 @@ export default function LeaderboardPage() {
     </div>
   );
 }
+
+type LeaderboardSort = "score" | "date" | "rank";
