@@ -177,3 +177,6 @@ function formatTime(seconds: number) {
   const s = seconds % 60;
   return `${m}:${s.toString().padStart(2, "0")}`;
 }
+
+// dashboard panel variant
+type DashboardPanel = "games" | "stats" | "recent";
