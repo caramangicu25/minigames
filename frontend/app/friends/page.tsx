@@ -256,3 +256,5 @@ export default function FriendsPage() {
     </div>
   );
 }
+
+type FriendFilter = "all" | "online" | "pending";
