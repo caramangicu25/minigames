@@ -139,3 +139,5 @@ export default function ProfilePage() {
     </RequireAuth>
   );
 }
+
+type ProfileTab = "stats" | "achievements" | "history";
