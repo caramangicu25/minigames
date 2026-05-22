@@ -140,3 +140,5 @@ export default function ChatPage() {
     </div>
   );
 }
+
+type ChatRoom = "global" | "friends" | string;
