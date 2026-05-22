@@ -179,3 +179,5 @@ export default function ChallengesPage() {
     </div>
   );
 }
+
+type ChallengeStatus = "pending" | "completed" | "failed";
