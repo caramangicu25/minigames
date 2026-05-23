@@ -59,3 +59,5 @@ export default function SudokuPage() {
     </div>
   );
 }
+
+type SudokuMode = "classic" | "timed" | "zen";
