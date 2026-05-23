@@ -37,3 +37,5 @@ export default function SnakePage() {
     </div>
   );
 }
+
+type SnakeDifficulty = "easy" | "normal" | "hard";
