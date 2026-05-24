@@ -83,3 +83,5 @@ export default function TicTacToePage() {
     </div>
   );
 }
+
+type TicTacToeOpponent = "human" | "bot";
