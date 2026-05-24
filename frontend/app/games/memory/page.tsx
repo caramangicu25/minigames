@@ -50,3 +50,5 @@ export default function MemoryPage() {
     </div>
   );
 }
+
+type MemoryGridSize = 4 | 6 | 8;
