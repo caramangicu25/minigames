@@ -93,3 +93,5 @@ export function SnakeGame({ game }: Props) {
     </div>
   );
 }
+
+type GridCell = { x: number; y: number };
