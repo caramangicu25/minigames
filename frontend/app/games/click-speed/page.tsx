@@ -41,3 +41,5 @@ export default function ClickSpeedPage() {
     </div>
   );
 }
+
+type ClickSpeedMode = "5s" | "10s" | "30s";
