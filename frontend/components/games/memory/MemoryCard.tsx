@@ -44,3 +44,5 @@ export function MemoryCard({ card, onFlip }: Props) {
     </button>
   );
 }
+
+type CardState = "hidden" | "revealed" | "matched";
