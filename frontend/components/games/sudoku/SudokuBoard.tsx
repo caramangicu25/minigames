@@ -49,3 +49,5 @@ export function SudokuBoard({ grid, original, selected, errors, onSelect }: Prop
     </div>
   );
 }
+
+type CellState = "empty" | "prefilled" | "user" | "error";
