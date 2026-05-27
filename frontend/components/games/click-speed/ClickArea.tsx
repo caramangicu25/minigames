@@ -53,3 +53,5 @@ export function ClickArea({ clicks, timeLeft, active, finished, onClick, onStart
     </div>
   );
 }
+
+type ClickEvent = { x: number; y: number; timestamp: number };
