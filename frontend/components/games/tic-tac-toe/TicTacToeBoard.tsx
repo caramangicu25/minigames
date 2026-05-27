@@ -32,3 +32,5 @@ export function TicTacToeBoard({ board, onCell, winner, winLine }: Props) {
     </div>
   );
 }
+
+type WinLine = [number, number, number] | null;
