@@ -5,3 +5,5 @@ export interface ChatMessage {
   content: string;
   createdAt: string;
 }
+
+export type MessageStatus = "sent" | "delivered" | "read";
