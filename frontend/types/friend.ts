@@ -14,3 +14,5 @@ export interface FriendLeaderboardEntry {
   game: string;
   value: number;
 }
+
+export type OnlineStatus = "online" | "offline" | "away";
