@@ -15,3 +15,5 @@ export async function updateMe(payload: Partial<User>): Promise<User> {
     body: JSON.stringify(payload),
   });
 }
+
+export type UserSearchParams = { query: string; limit?: number };
