@@ -12,3 +12,5 @@ export const checkAchievements = (userId: string, game: string, value: number) =
     method: "POST",
     body: JSON.stringify({ userId, game, value }),
   });
+
+export type AchievementFilter = { userId?: number; gameType?: string };
