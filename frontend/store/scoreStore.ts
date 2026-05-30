@@ -48,3 +48,5 @@ export const useScoreStore = create<ScoreState>((set) => ({
 
   clearNewAchievements: () => set({ newAchievements: [] }),
 }));
+
+export type ScorePage = { data: unknown[]; total: number; page: number };
