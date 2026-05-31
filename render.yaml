@@ -1,0 +1,26 @@
+services:
+  - type: web
+    name: minigames-backend
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    envVars:
+      - key: DB_CONNECTION
+        fromDatabase:
+          name: minigames-db
+          property: connectionString
+      - key: JWT_KEY
+        value: MiniGames_JWT_Secret_Key_2026_Production_32ch
+      - key: JWT_ISSUER
+        value: minigames-api
+      - key: JWT_AUDIENCE
+        value: minigames-client
+      - key: Frontend
+        value: https://frontend-dun-rho-30.vercel.app
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
+
+databases:
+  - name: minigames-db
+    databaseName: minigames
+    user: minigames
