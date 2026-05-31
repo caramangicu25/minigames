@@ -1,8 +1,0 @@
-[phases.setup]
-nixPkgs = ["dotnet-sdk_9"]
-
-[phases.build]
-cmds = ["dotnet publish MiniGames.Api/MiniGames.Api.csproj -c Release -o /app/publish --no-self-contained"]
-
-[start]
-cmd = "dotnet /app/publish/MiniGames.Api.dll"
