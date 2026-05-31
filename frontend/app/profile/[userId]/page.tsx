@@ -85,3 +85,5 @@ export default function PublicProfilePage() {
     </div>
   );
 }
+
+type ProfileViewMode = "public" | "friend" | "self";
