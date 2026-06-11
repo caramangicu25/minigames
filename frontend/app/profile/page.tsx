@@ -18,7 +18,7 @@ const GAME_ICONS: Record<string, string> = {
 
 export default function ProfilePage() {
   const { user } = useAuthStore();
-  const { scores } = useScoreStore();
+  const { scores, loadUserScores } = useScoreStore();
   const router = useRouter();
 
   const [achievements, setAchievements] = useState<AchievementDto[]>([]);
@@ -26,6 +26,7 @@ export default function ProfilePage() {
   useEffect(() => {
     if (!user) return;
     getUserAchievements(user.id).then(setAchievements).catch(() => {});
+    loadUserScores(user.id);
   }, [user?.id]);
 
   const userScores = scores.filter((s) => s.userId === user?.id);
