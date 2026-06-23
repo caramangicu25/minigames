@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="MiniGames.Api\MiniGames.Api.csproj" />
+  <Project Path="MiniGames.BusinessLogic\MiniGames.BusinessLogic.csproj" />
+  <Project Path="MiniGames.DataAccess\MiniGames.DataAccess.csproj" />
+  <Project Path="MiniGames.Domains\MiniGames.Domains.csproj" />
+  <Project Path="MiniGames.Tests\MiniGames.Tests.csproj" />
+</Solution>
