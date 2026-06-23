@@ -1,0 +1,28 @@
+# Node
+node_modules/
+.next/
+out/
+dist/
+*.tsbuildinfo
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.db
+*.db-shm
+*.db-wal
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docs
+docs/
